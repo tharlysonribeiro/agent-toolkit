@@ -1,0 +1,9 @@
+{
+  "name": "agent-toolkit",
+  "description": "Reusable skills and session guidance for Claude Code.",
+  "version": "0.1.0",
+  "author": { "name": "Tharlyson Ribeiro" },
+  "license": "MIT",
+  "keywords": ["skills", "hooks", "agents", "workflow"],
+  "skills": ["./skills/karpathy-guidelines"]
+}

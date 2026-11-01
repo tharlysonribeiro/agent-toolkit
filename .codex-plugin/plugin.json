@@ -1,0 +1,6 @@
+{
+  "name": "agent-toolkit",
+  "version": "0.1.0",
+  "description": "Reusable skills and session guidance for Codex.",
+  "skills": "./skills/"
+}
