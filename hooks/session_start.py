@@ -14,10 +14,23 @@ def main() -> int:
         if hook_input.strip():
             json.loads(hook_input)
 
-        plugin_root = Path(
-            os.environ.get("PLUGIN_ROOT", Path(__file__).resolve().parents[1])
+        script_path = Path(__file__).resolve()
+        plugin_root = os.environ.get("CLAUDE_PLUGIN_ROOT") or os.environ.get("PLUGIN_ROOT")
+        candidates = []
+        if plugin_root:
+            candidates.append(
+                Path(plugin_root) / "skills" / "karpathy-guidelines" / "SKILL.md"
+            )
+        candidates.extend(
+            [
+                script_path.parents[1] / "skills" / "karpathy-guidelines" / "SKILL.md",
+                *[
+                    parent / ".agents" / "skills" / "karpathy-guidelines" / "SKILL.md"
+                    for parent in script_path.parents
+                ],
+            ]
         )
-        skill_path = plugin_root / "skills" / "karpathy-guidelines" / "SKILL.md"
+        skill_path = next((path for path in candidates if path.is_file()), candidates[0])
         skill = skill_path.read_text(encoding="utf-8")
         instructions = re.sub(
             r"\A---\s*\n.*?\n---\s*\n", "", skill, count=1, flags=re.DOTALL
