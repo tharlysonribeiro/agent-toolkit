@@ -1,0 +1,10 @@
+apm_modules/
+build/
+/.agents/skills/
+/.claude/skills/
+/.claude/hooks/
+/.claude/settings.json
+/.claude/apm-hooks.json
+/.codex/hooks/
+/.codex/hooks.json
+/.codex/apm-hooks.json

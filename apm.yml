@@ -1,0 +1,15 @@
+name: agent-toolkit
+version: 0.1.0
+description: Curated agent skills and tools for Codex and Claude Code.
+license: MIT
+includes:
+  - skills/**
+
+dependencies:
+  apm:
+    - git: https://github.com/mattpocock/skills.git
+      ref: v1.3.2
+      path: skills/productivity/grill-me
+    - git: https://github.com/mattpocock/skills.git
+      ref: v1.3.2
+      path: skills/productivity/grilling
