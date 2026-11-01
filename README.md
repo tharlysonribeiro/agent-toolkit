@@ -2,7 +2,7 @@
 
 A personal plugin for Claude Code and Codex, with reusable skills, hooks, and MCP setup examples.
 
-The Karpathy Guidelines skill is available to both clients. A `SessionStart` hook also adds the full guideline text to each new session. The hook requires Python 3.
+The Karpathy Guidelines and Coding Principles skills are available to both clients. A single `SessionStart` hook adds both guideline texts to each new session. The hook requires Python 3.
 
 ## Install the plugin
 
