@@ -6,7 +6,7 @@
           {
             "type": "command",
             "command": "python3 \"${CLAUDE_PLUGIN_ROOT}/hooks/session_start.py\"",
-            "statusMessage": "Loading Karpathy guidelines"
+            "statusMessage": "Loading coding guidelines"
           }
         ]
       }
