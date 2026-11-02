@@ -38,6 +38,9 @@ The upstream skills are pinned to Matt Pocock's `v1.3.2` release in this reposit
 - [Ponytail](https://github.com/DietrichGebert/ponytail) — install its official plugin.
 - [Orca](https://github.com/stablyai/orca) — agent skill for building with Orca.
 - [Diagram Design](https://github.com/cathrynlavery/diagram-design) — skill for clear technical diagrams.
+- [Cloudflare Security Audit](https://github.com/cloudflare/security-audit-skill) — multi-phase security audit skill.
+- [Matt Pocock Skills](https://github.com/mattpocock/skills) — collection of practical coding skills; `grill-me` is already included in this toolkit's APM package.
+- [Humanizer](https://github.com/blader/humanizer) — skill for editing text that sounds AI-generated.
 
 ## MCP servers
 
@@ -48,6 +51,8 @@ bash scripts/install-mcps.sh
 ```
 
 It configures only the clients and servers you select. See [MCP.md](MCP.md) for prerequisites, project-level setup, authentication, and manual configuration examples in [`mcp/`](mcp/).
+
+[CodeGraph](https://github.com/colbymchenry/codegraph) is a separate local code-navigation MCP server; install it using its upstream instructions.
 
 ## Project instructions
 
