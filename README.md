@@ -41,6 +41,7 @@ The upstream skills are pinned to Matt Pocock's `v1.3.2` release in this reposit
 - [Cloudflare Security Audit](https://github.com/cloudflare/security-audit-skill) — multi-phase security audit skill.
 - [Matt Pocock Skills](https://github.com/mattpocock/skills) — collection of practical coding skills; `grill-me` is already included in this toolkit's APM package.
 - [Humanizer](https://github.com/blader/humanizer) — skill for editing text that sounds AI-generated.
+- [Impeccable](https://github.com/pbakaus/impeccable) — design skill for building polished interfaces.
 
 ## MCP servers
 
