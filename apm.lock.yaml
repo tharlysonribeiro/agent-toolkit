@@ -1,24 +1,4 @@
 lockfile_version: '1'
 apm_version: 0.35.0
-dependencies:
-- repo_url: mattpocock/skills
-  name: grill-me
-  host: github.com
-  resolved_commit: d1478fcb140db0b93c0c8df17bcfd311844749d0
-  resolved_ref: v1.3.2
-  version: unknown
-  virtual_path: skills/productivity/grill-me
-  is_virtual: true
-  package_type: claude_skill
-  content_hash: sha256:fe33aaa8e8dcd606107b1bfe3109f257b4a7e0f4907afd6506b62ccfb73cd1d3
-- repo_url: mattpocock/skills
-  name: grilling
-  host: github.com
-  resolved_commit: d1478fcb140db0b93c0c8df17bcfd311844749d0
-  resolved_ref: v1.3.2
-  version: unknown
-  virtual_path: skills/productivity/grilling
-  is_virtual: true
-  package_type: claude_skill
-  content_hash: sha256:823f08ad33368a9626991e6782f7ae14b958e39ef8503f6bdb3b98a58d237a58
+dependencies: []
 deployments: []

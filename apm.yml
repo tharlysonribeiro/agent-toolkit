@@ -6,10 +6,4 @@ includes:
   - skills/**
 
 dependencies:
-  apm:
-    - git: https://github.com/mattpocock/skills.git
-      ref: v1.3.2
-      path: skills/productivity/grill-me
-    - git: https://github.com/mattpocock/skills.git
-      ref: v1.3.2
-      path: skills/productivity/grilling
+  apm: []

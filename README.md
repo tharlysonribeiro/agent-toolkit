@@ -25,13 +25,13 @@ For local development, use the repository path instead of `tharlysonribeiro/agen
 
 ## Install skills with APM
 
-The APM package includes the local `karpathy-guidelines` skill and Matt Pocock's [`grill-me`](https://github.com/mattpocock/skills) skill with its `grilling` dependency, pinned to `v1.3.2`.
+The APM package includes the local `karpathy-guidelines` skill.
 
 ```bash
-apm install tharlysonribeiro/agent-toolkit#v0.1.0
+apm install tharlysonribeiro/agent-toolkit#master --target agent-skills
 ```
 
-The upstream skills are pinned to Matt Pocock's `v1.3.2` release in this repository's `apm.yml`. APM records the resolved revision and content hashes in `apm.lock.yaml`. Publish the matching `v0.1.0` tag before using this command.
+This installs the latest version from the `master` branch.
 
 ## Recommended skills
 
@@ -39,7 +39,7 @@ The upstream skills are pinned to Matt Pocock's `v1.3.2` release in this reposit
 - [Orca](https://github.com/stablyai/orca) — agent skill for building with Orca.
 - [Diagram Design](https://github.com/cathrynlavery/diagram-design) — skill for clear technical diagrams.
 - [Cloudflare Security Audit](https://github.com/cloudflare/security-audit-skill) — multi-phase security audit skill.
-- [Matt Pocock Skills](https://github.com/mattpocock/skills) — collection of practical coding skills; `grill-me` is already included in this toolkit's APM package.
+- [Matt Pocock Skills](https://github.com/mattpocock/skills) — collection of practical coding skills.
 - [Humanizer](https://github.com/blader/humanizer) — skill for editing text that sounds AI-generated.
 - [Impeccable](https://github.com/pbakaus/impeccable) — design skill for building polished interfaces.
 
