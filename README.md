@@ -33,16 +33,6 @@ apm install tharlysonribeiro/agent-toolkit#master --target agent-skills
 
 This installs the latest version from the `master` branch.
 
-## Recommended skills
-
-- [Ponytail](https://github.com/DietrichGebert/ponytail) — install its official plugin.
-- [Orca](https://github.com/stablyai/orca) — agent skill for building with Orca.
-- [Diagram Design](https://github.com/cathrynlavery/diagram-design) — skill for clear technical diagrams.
-- [Cloudflare Security Audit](https://github.com/cloudflare/security-audit-skill) — multi-phase security audit skill.
-- [Matt Pocock Skills](https://github.com/mattpocock/skills) — collection of practical coding skills.
-- [Humanizer](https://github.com/blader/humanizer) — skill for editing text that sounds AI-generated.
-- [Impeccable](https://github.com/pbakaus/impeccable) — design skill for building polished interfaces.
-
 ## MCP servers
 
 Choose and install GitHub, Linear, MySQL, and Playwright with the interactive installer:
