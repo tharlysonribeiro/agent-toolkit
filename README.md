@@ -1,4 +1,4 @@
-# Agent Toolkit
+# Agent Stack
 
 A personal plugin for Claude Code and Codex, with reusable skills, hooks, and MCP setup examples.
 
@@ -9,27 +9,27 @@ The Karpathy Guidelines and Coding Principles skills are available to both clien
 ### Claude Code
 
 ```text
-/plugin marketplace add tharlysonribeiro/agent-toolkit
-/plugin install agent-toolkit@agent-toolkit
+/plugin marketplace add tharlysonribeiro/agent-stack
+/plugin install agent-stack@agent-stack
 ```
 
 ### Codex
 
 ```bash
-codex plugin marketplace add tharlysonribeiro/agent-toolkit
-codex plugin add agent-toolkit@agent-toolkit
+codex plugin marketplace add tharlysonribeiro/agent-stack
+codex plugin add agent-stack@agent-stack
 ```
 
-Alternatively, install **Agent Toolkit** from Codex's Plugins directory after adding the marketplace. Review and trust the `SessionStart` hook when prompted.
+Alternatively, install **Agent Stack** from Codex's Plugins directory after adding the marketplace. Review and trust the `SessionStart` hook when prompted.
 
-For local development, use the repository path instead of `tharlysonribeiro/agent-toolkit`.
+For local development, use the repository path instead of `tharlysonribeiro/agent-stack`.
 
 ## Install skills with APM
 
 The APM package includes the local `karpathy-guidelines` skill.
 
 ```bash
-apm install tharlysonribeiro/agent-toolkit#master --target agent-skills
+apm install tharlysonribeiro/agent-stack#master --target agent-skills
 ```
 
 This installs the latest version from the `master` branch.

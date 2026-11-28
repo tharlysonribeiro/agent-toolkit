@@ -1,5 +1,5 @@
 {
-  "name": "agent-toolkit",
+  "name": "agent-stack",
   "description": "Reusable skills and session guidance for Claude Code.",
   "version": "0.1.0",
   "author": { "name": "Tharlyson Ribeiro" },

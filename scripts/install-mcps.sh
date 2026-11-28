@@ -3,7 +3,7 @@ set -euo pipefail
 
 usage() {
   cat <<'EOF'
-Install selected Agent Toolkit MCP servers in Claude Code, Codex, or both.
+Install selected Agent Stack MCP servers in Claude Code, Codex, or both.
 
 Usage:
   bash scripts/install-mcps.sh

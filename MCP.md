@@ -1,6 +1,6 @@
 # MCP server setup
 
-This repository provides four MCP integrations: GitHub, Linear, MySQL, and Playwright. Install each server separately from the Agent Toolkit plugin so every machine can choose its own services and credentials.
+This repository provides four MCP integrations: GitHub, Linear, MySQL, and Playwright. Install each server separately from the Agent Stack plugin so every machine can choose its own services and credentials.
 
 ## Interactive installer
 
@@ -26,7 +26,7 @@ Set the host, user, database, and password in the same terminal before running t
 ```bash
 export MYSQL_HOST=127.0.0.1
 export MYSQL_PORT=3306
-export MYSQL_USER=agent_toolkit
+export MYSQL_USER=agent_stack
 export MYSQL_DATABASE=your_database
 read -rsp 'MySQL password: ' MYSQL_PASSWORD
 printf '\n'

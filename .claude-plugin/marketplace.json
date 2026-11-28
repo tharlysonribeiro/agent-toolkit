@@ -1,5 +1,5 @@
 {
-  "name": "agent-toolkit",
+  "name": "agent-stack",
   "owner": { "name": "tharlysonribeiro" },
   "metadata": {
     "description": "Personal skills, hooks, and MCP setup examples for Claude Code and Codex.",
@@ -7,7 +7,7 @@
   },
   "plugins": [
     {
-      "name": "agent-toolkit",
+      "name": "agent-stack",
       "source": "./",
       "description": "Reusable skills and session guidance for Claude Code.",
       "version": "0.1.0",

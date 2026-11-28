@@ -1,4 +1,4 @@
-name: agent-toolkit
+name: agent-stack
 version: 0.1.0
 description: Curated agent skills and tools for Codex and Claude Code.
 license: MIT
