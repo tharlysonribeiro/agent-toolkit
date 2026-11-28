@@ -17,9 +17,10 @@ The Karpathy Guidelines and Coding Principles skills are available to both clien
 
 ```bash
 codex plugin marketplace add tharlysonribeiro/agent-toolkit
+codex plugin add agent-toolkit@agent-toolkit
 ```
 
-Then install **Agent Toolkit** from Codex's Plugins directory. Review and trust the `SessionStart` hook when prompted.
+Alternatively, install **Agent Toolkit** from Codex's Plugins directory after adding the marketplace. Review and trust the `SessionStart` hook when prompted.
 
 For local development, use the repository path instead of `tharlysonribeiro/agent-toolkit`.
 
